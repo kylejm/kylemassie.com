@@ -62,12 +62,6 @@
 
 @media (max-width: 700px){
   .experiences{
-    padding-top: 140vh;
-  }
-}
-
-@media (max-width: 300px){
-  .experiences{
-    padding-top: 220vh;
+    padding-top: 200vh;
   }
 }

@@ -115,14 +115,10 @@
 
   @media (max-width: 800px) {
     .box{
-      padding-top: 35vh;
+      padding-top: 70vh;
     }
   }
 
 
-@media (max-width: 300px) {
-    .box{
-      padding-top: 80vh;
-    }
-  }
+
   
