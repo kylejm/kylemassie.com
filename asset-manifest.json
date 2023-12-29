@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kylemassie.com/static/css/main.11125988.css",
-    "main.js": "/kylemassie.com/static/js/main.23fabf21.js",
+    "main.js": "/kylemassie.com/static/js/main.593f4986.js",
     "static/js/787.3b648dc3.chunk.js": "/kylemassie.com/static/js/787.3b648dc3.chunk.js",
     "index.html": "/kylemassie.com/index.html",
     "main.11125988.css.map": "/kylemassie.com/static/css/main.11125988.css.map",
-    "main.23fabf21.js.map": "/kylemassie.com/static/js/main.23fabf21.js.map",
+    "main.593f4986.js.map": "/kylemassie.com/static/js/main.593f4986.js.map",
     "787.3b648dc3.chunk.js.map": "/kylemassie.com/static/js/787.3b648dc3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.11125988.css",
-    "static/js/main.23fabf21.js"
+    "static/js/main.593f4986.js"
   ]
 }
