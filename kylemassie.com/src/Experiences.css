@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap');
+
+.experiences {
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 30vh;
+  padding-left: 15vw;
+  padding-right: 15vw;
+
+
+}
+
+.experiences h2 {
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Kanit', sans-serif;
+  color: #CEB888;
+}
+
+.experience {
+  border-radius: 8px;
+  width: 70vw;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  word-wrap: break-word; /* Ensure words can break and wrap */
+  overflow-wrap: break-word; /* Break words to prevent overflow */
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience h3 {
+  color: #eeebdf;
+  font-family: 'Kanit', sans-serif;
+  font-size: 22px;
+  word-wrap: break-word;
+}
+
+.duration, .description {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.duration {
+  color: #CEB888;
+  font-family: 'Kanit', sans-serif;
+  font-style: italic;
+}
+
+.description {
+  line-height: 1.6;
+  font-family: 'Kanit', sans-serif;
+}
+
+@media (max-width: 1000px){
+  .experiences{
+    padding-top: 100vh;
+  }
+}
+
+@media (max-width: 700px){
+  .experiences{
+    padding-top: 140vh;
+  }
+}

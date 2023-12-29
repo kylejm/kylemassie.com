@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap');
+
+.Footer {
+    color: #FBF8E9;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100vw;
+    padding-top: 60vh;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+
+@media (max-width: 1000px) {
+    .Footer{
+        padding-top: 180vh;
+    }
+}
+

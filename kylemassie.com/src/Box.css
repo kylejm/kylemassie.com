@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap');
+
+.box {
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 25vh;
+    max-width: 100vw;
+    box-sizing: border-box;
+  }
+  
+.box::before,
+.box::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 3px;
+    background: linear-gradient(to bottom, transparent, #CEB888, transparent);
+}
+
+.box::before {
+    left: calc(5% + 1vw); /* Adjust as per your design */
+}
+  
+.box::after {
+    right: calc(5% + 1vw); /* Adjust as per your design */
+}
+
+
+.box-text{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #FBF8E9;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    word-wrap: break-word;
+
+}
+.box-title {
+    display: inline-block;
+    color: #CEB888;
+    font-family: 'Kanit', sans-serif;
+    font-size: 65px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+  
+
+  
+.btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 15px;
+    margin-top: 20px;
+    background-color: transparent;
+    color: #CEB888;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Kanit', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    justify-content: center;
+  }
+
+  .btn-resume {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 15px;
+    margin-top: 20px;
+    background-color: transparent;
+    color: #CEB888;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Kanit', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    justify-content: center;
+    border:2px solid #1a1c1f
+  }
+
+
+  
+  .arrow-icon {
+    margin-left: 8px;
+    fill: #CEB888;
+    transition: transform 0.3s ease;
+  }
+  
+  .btn:hover .arrow-icon {
+    transform: translateX(5px); /* Arrow moves right when hovered */
+    fill: #1a1c1f;
+  }
+  
+  .btn:hover {
+    background-color: #CEB888;
+    color: #1a1c1f;
+  }
+  .btn-resume:hover {
+    background-color: #CEB888;
+    color: #1a1c1f;
+  }
+
+.resume-icon{
+    fill:#CEB888;
+    margin-right: 8px;
+  }
+
+.btn-resume:hover .resume-icon {
+    fill: #1a1c1f;
+  }
+
+
+  @media (max-width: 800px) {
+    .box{
+      padding-top: 35vh;
+    }
+  }
+  

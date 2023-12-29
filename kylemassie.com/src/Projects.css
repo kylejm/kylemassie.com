@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap');
+
+
+.projects-container{
+  padding-top: 30vh;
+}
+
+.boxes-container {
+  display: flex;
+  flex-direction: row; /* Align boxes in a row */
+  flex-wrap: wrap; /* Allow wrapping to the next line */
+  justify-content: center; /* Center boxes */
+  align-items: flex-start; /* Align boxes vertically */
+  gap: 20px; /* Space between boxes */
+  width: 100vw;
+
+  
+}
+
+
+.hovering-box-link {
+  cursor: pointer; /* Changes the cursor to indicate the box is clickable */
+}
+
+.hovering-box {
+  display: flex;
+  align-items: center;
+  width: 30vw;
+  padding: 15px;
+  background-color: #000000;
+  border: 2px solid #1a1a1a;
+  border-radius: 10px;
+  transition: transform 0.3s ease, background-color 0.3s ease, border-bottom-color 0.3s ease;
+  position: relative; /* Position relative to allow absolute positioning of pseudo-elements */
+}
+
+.hovering-box:hover {
+  transform: translateY(-15px);
+}
+
+.section-title {
+  width: 100vw;
+  margin-bottom: 20px;
+  font-family: 'Kanit', sans-serif;
+  color: #CEB888;
+  font-size: 45px;
+  text-align: center;
+}
+
+.paragraph-title {
+  font-size: 20px;
+  position: relative;
+  display: center;
+  font-family: 'Kanit', sans-serif;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.paragraph-title::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0; /* Starts as 0 width */
+  height: 2px;
+  background-color: #CEB888; /* Color of the underline */
+  transition: width 0.3s ease-in-out;
+}
+
+.hovering-box:hover .paragraph-title::after {
+  width: 100%; /* Full width on hover */
+}
+
+.arrow {
+  fill: #eeebdf; /* Arrow color */
+  margin-left: 8px;
+  width: 20px;
+  height: 20px;
+  
+  transition: transform 0.3s ease;
+}
+
+.hovering-box:hover .arrow {
+  transform: translateX(5px);
+}
+
+.icon {
+  /* SVG icon style */
+  width: 30px; /* Adjust as needed */
+  height: 30px;
+  fill: #eeebdf;
+}
+
+.icon-python {
+  /* SVG icon style */
+  width: 50px; /* Adjust as needed */
+  height: 5s0px;
+  fill: #eeebdf;
+}
+.icon-small {
+  /* SVG icon style */
+  width: 18px; /* Adjust as needed */
+  height: 18px;
+  margin-right: 1px; /* Space between icon and text */
+  fill: #eeebdf;
+}
+
+.box-content {
+  display: flex;
+  align-items: center;
+}
+
+.btn-center {
+  width: 20vw;
+  display: block; /* Makes it a block element to take up the full width */
+  margin: 20px auto; /* Centers the button */
+  padding: 10px 10px; /* Padding for size */
+  text-align: center; /* Center the text */
+  color: #CEB888;
+  text-decoration: none; /* Removes underline */
+  border-radius: 5px; /* Rounded corners */
+  font-family: 'Kanit', sans-serif; /* Font styling */
+  cursor: pointer; /* Changes the cursor to indicate it's clickable */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transition for hover effect */
+  position: relative;
+
+}
+
+.btn-center:hover {
+  background-color: #CEB888;
+  color: #1a1c1f;
+}
+
+.arrow-btn{
+  margin-left: 8px;
+  fill: #CEB888;
+  transition: transform 0.3s ease;
+  display: inline-flex;
+}
+
+.btn-center:hover .arrow-btn {
+  transform: translateX(5px); /* Arrow moves right when hovered */
+  fill: #1a1c1f;
+}
+
+@media (max-width: 1000px) {
+  .boxes-container {
+    flex-direction: column; /* Stack the boxes vertically */
+    align-items: center; /* Center the boxes when stacked */
+  }
+
+  .hovering-box{
+    width: 60vw;
+  }
+  .arrow{
+    width: 14px;
+    height: 14px;
+  }
+  .projects-container{
+    padding-top: 80vh;
+  }
+
+}
+
+@media (max-width: 650px){
+  .projects-container{
+    padding-top: 90vh;
+  }
+}
+
+.content{
+  padding-top: 6px;
+  margin-left: 10px;
+  font-family: 'Kanit', sans-serif;
+  text-decoration: none;
+  display: inline-flex;
+}
+
+
+
+
