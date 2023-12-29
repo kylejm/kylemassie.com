@@ -23,7 +23,7 @@ function App() {
       </NavBar>
       <Section id="about" title="About">
         <Box
-          title = "Welcome"
+          title = "Kyle Massie"
           description="Welcome, I'm a Junior Computer Engineer at Purdue University
           specializing in software development, embedded systems, and automotive engineering. I have a passion for all things technology and design."
           > 
