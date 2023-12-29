@@ -179,5 +179,11 @@
 }
 
 
+@media (max-width: 300px){
+  .projects-container{
+    padding-top: 140vh;
+  }
+}
+
 
 

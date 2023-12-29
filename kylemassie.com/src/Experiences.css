@@ -65,3 +65,9 @@
     padding-top: 140vh;
   }
 }
+
+@media (max-width: 300px){
+  .experiences{
+    padding-top: 220vh;
+  }
+}
