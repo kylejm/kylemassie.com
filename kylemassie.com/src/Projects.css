@@ -159,15 +159,9 @@
     height: 14px;
   }
   .projects-container{
-    padding-top: 100vh;
+    padding-top: 140vh;
   }
 
-}
-
-@media (max-width: 650px){
-  .projects-container{
-    padding-top: 130vh;
-  }
 }
 
 .content{
